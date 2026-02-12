@@ -15,7 +15,7 @@ function Footer() {
           </div>
           <p className="text-slate-500 max-w-sm">
             Making urban living accessible and luxurious. Find your next home
-            across major cities in Africa and beyond.
+            across major areas in Mauritius and beyond.
           </p>
         </div>
         <div>
