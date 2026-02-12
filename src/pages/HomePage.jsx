@@ -130,16 +130,16 @@ function HomePage() {
             <div className="space-y-6">
               {[
                 {
-                  title: "Verified Landlords",
-                  desc: "We manually vet every property owner to ensure your security.",
+                  title: "Fully Serviced Living",
+                  desc: "Enjoy the perks of a hotel in your own apartment, including professional cleaning and high-speed fiber internet.",
                 },
                 {
-                  title: "No Hidden Fees",
-                  desc: "Transparency is our priority. What you see is what you pay.",
+                  title: "Seamless Move-in",
+                  desc: "Our 'Instant-Rent' system allows you to sign your lease and get your digital keys within 24 hours.",
                 },
                 {
-                  title: "Instant Booking",
-                  desc: "Schedule virtual or physical tours directly through our platform.",
+                  title: "On-Site Management",
+                  desc: "Forget the middleman. Our dedicated Suffolk team is physically on-site 24/7 to handle your maintenance requests.",
                 },
               ].map((feature, i) => (
                 <div key={i} className="flex gap-4">
@@ -166,67 +166,6 @@ function HomePage() {
           </div>
         </div>
       </section>
-      <footer className="bg-white pt-20 pb-10 border-t border-slate-100">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12 mb-16">
-          <div className="col-span-2">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <FaHome className="text-white w-5 h-5" />
-              </div>
-              <span className="text-xl font-bold tracking-tight">
-                Suffolk Resort
-              </span>
-            </div>
-            <p className="text-slate-500 max-w-sm">
-              Making urban living accessible and luxurious. Find your next home
-              across major cities in Africa and beyond.
-            </p>
-          </div>
-          <div>
-            <h5 className="font-bold mb-6">Platform</h5>
-            <ul className="space-y-4 text-slate-500">
-              <li>
-                <a href="#" className="hover:text-blue-600 transition">
-                  Browse Homes
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-600 transition">
-                  Rent an Apartment
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-600 transition">
-                  Pricing
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="font-bold mb-6">Company</h5>
-            <ul className="space-y-4 text-slate-500">
-              <li>
-                <a href="#" className="hover:text-blue-600 transition">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-600 transition">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-600 transition">
-                  Privacy Policy
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="text-center text-slate-400 text-sm border-t border-slate-50 pt-8">
-          © 2026 Suffolk Resort. All rights reserved. Built by ZIE
-        </div>
-      </footer>
     </div>
   );
 }

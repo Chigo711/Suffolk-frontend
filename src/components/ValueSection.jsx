@@ -74,7 +74,7 @@ function ValueSection() {
               "The attention to detail at Suffolk is unmatched. I found my
               sanctuary here."
             </p>
-            <p className="mt-2 font-bold text-accent">— Chigozie Emmanuel</p>
+            <p className="mt-2 font-bold text-accent">— Arjuna Caleb Gyan</p>
           </div>
         </div>
       </div>
